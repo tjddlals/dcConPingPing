@@ -4,20 +4,24 @@
  licensed under MIT license
  based on 'xcom' theme which based on 'mario' theme
 */
-@import url(https://fonts.googleapis.com/css?family=Lato);
+/*
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic);
 
 @font-face {
-  font-family: 'SeoulNamsan';
+  font-family: 'Nanum Gothic';
   font-style: regular;
   font-weight: 300;
-  src: local('서울남산체 L'), url('../_shared/fonts/SeoulNamsanL.otf');
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v17/PN_3Rfi-oW3hYwmKDpxS7F_z-7rJxHVIsPV5MbNO2rV2_va-Nv6p.0.woff2);
 }
 @font-face {
-  font-family: 'SeoulNamsan';
+  font-family: 'Nanum Gothic';
   font-style: regular;
   font-weight: 600;
-  src: local('서울남산체 B'), url('../_shared/fonts/SeoulNamsanB.otf');
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v17/PN_3Rfi-oW3hYwmKDpxS7F_z-7rJxHVIsPV5MbNO2rV2_va-Nv6p.0.woff2);
 }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -27,7 +31,7 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: -apple-system, sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 body {
   position: absolute;
@@ -45,12 +49,14 @@ body {
   padding: 0 0.5rem;
 }
 .chat_outer_box {
+  background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 40px 40px;
   margin: 0.25rem 0;
   padding: 0;
   width: 100%;
   position: relative;
   overflow: hidden;
-  border: 0.0625rem solid #f1f1f1
+  border: 0rem /*0.0625rem solid #f1f1f1 */
 }
 
 /* Nickname / Badge */ /*
@@ -104,15 +110,22 @@ body {
   background: rgba(0, 0, 0, 0.25);
 } */
 /* Messages */
+/*
 .chat_lower_box {
   position: relative;
   color: #fff;
   background: #000;
+  background: rgba( 255, 255, 255, 0 );
 }
+*/
 .chat_msg_box {
-  padding: 0.5rem 0.625rem;
+  padding: 0.7rem 0.5rem;
+  padding-left: 1rem;
   max-height: 14rem; /* 텍스트 영역 최대 높이 */
-  font-size: 1rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Nanum Gothic', sans-serif;
+	text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
 }
 .chat_msg_box.image_only {
   text-align: center;
@@ -132,7 +145,7 @@ body {
   max-height: 2rem;
 }
 .dccon {
-  max-height: 6.25rem;
+  max-height: 6rem;
 }
 
 /* Special Cases */
