@@ -50,7 +50,7 @@ body {
 }
 .chat_outer_box {
   background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 40px 40px;
+	border-radius: 20px 20px;
   margin: 0.25rem 0;
   padding: 0;
   width: 100%;
@@ -119,13 +119,14 @@ body {
 }
 */
 .chat_msg_box {
-  padding: 0.7rem 0.5rem;
-  padding-left: 1rem;
+  padding: 0.5rem 0.3rem; /*챗 높이, 오른쪽 간격*/
+  padding-left: 0.3rem;
   max-height: 14rem; /* 텍스트 영역 최대 높이 */
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-family: 'Nanum Gothic', sans-serif;
 	text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+  text-align: center;
 }
 .chat_msg_box.image_only {
   text-align: center;
@@ -145,7 +146,7 @@ body {
   max-height: 2rem;
 }
 .dccon {
-  max-height: 6rem;
+  max-height: 7rem;
 }
 
 /* Special Cases */
