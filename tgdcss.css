@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+
+html {
+  background: #fff;
+  height: auto !important;
+}
+
+body {
+letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header #header-bar>.row {
+    border-top: 5px solid #3a4892;
+}
+
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(https://upload.tgd.kr/20201129/252afd5cbf75aaa11e2a1d08b615872d.png) no-repeat;
+  background-size: auto 50px;
+}
+
+header .row>div:nth-child(1)>a>img {
+  display: none;
+
+	filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+#main #main-content>div.frame {
+    background: #fff;
+    border: 2px solid #ebeae8;
+}
+
+#main .menu-wrapper>a {
+    display: block;
+    background: #fff;
+    padding: 0.3em 1.4em 0.3em 0.7em;
+    text-decoration: none;
+    color: #313131;
+    border: 2px solid #ebeae8;
+}
+
+#main .menu-wrapper .spacer {
+    background: #9da4c9;
+    display: block;
+    height: 0rem;
+}
+
+#main .menu-wrapper>.header {
+    background: #3a4892;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 11px;
+    color : #000000;
+    border-radius: 100px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+    display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-category {
+    float: left;
+    padding: 0 0px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 0px solid #e2e2e2;
+    text-align: center;
+    min-height: 16px;
+    line-height: 16px;
+    margin-right: 4px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer {
+    float: right;
+    padding: 0 0px;
+    border-left: 0px solid #e2e2e2;
+    border-right: 0px solid #e2e2e2;
+    font-size : 0px;
+    text-align: center;
+    min-height: 16px;
+    line-height: 16px;
+}
+
+
+.achv-icon-small {
+    display : none;
+}
+
+
+img[alt="Broadcaster"]
+{
+    display : block;
+    float: right;
+    padding: 0 0px;
+    padding-left: 3px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 0px solid #e2e2e2;
+    margin-left: 2px;
+    font-size: 0px;
+    text-align: center;
+    min-height: 16px;
+    line-height: 16px;
+}
+
+img[alt="Moderator"]
+{
+    display : none;
+}
+
+img[src="https://static-cdn.jtvnw.net/badges/v1/9a5ea597-5f51-431b-ae0c-8cb5f8dfd689/1"]
+{
+    display : none;
+}
+
+#article-list #article-list-category {
+    background: #fff;
+    border-top: 2px solid #3a4892;
+}
+
+#article-list #article-list-category>a {
+    background : #fff;
+}
+
+#main .menu-wrapper>a>em {
+    color: #9da4c9;
+}
+
+#board-info #board-info-profile-img{
+  display: none;
+}
+
+#article-info > img {
+  visibility: hidden;
+}
+
+#article-content-wrapper>.header {
+    border-top: 2px solid #3a4892;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #3a4892;
+    border-color: #3a4892;
+    height : 80px;
+    width : 80px;
+    border-radius: 100px;
+}
+
+.btn-outline-success i {
+    display : none;
+}
+.btn-outline-success:hover{
+  color:#fff;
+  background-color:#9da4c9;
+  border-color:#9da4c9;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: #8b8b8b;
+    border-color: #8b8b8b;
+    height: 80px;
+    width : 80px;
+    border-radius : 100px;
+}
+
+.btn-outline-primary:hover {
+  color : #fff;
+  background-color: #cdcdcd;
+  border-color : #cdcdcd;
+}
+
+.btn-outline-primary i{
+    display : none;
+}
+
+.reply-menu a {
+  color : #3a4892;
+}
+
+#article-reply-area > .header h5 {
+    font-size: 12px;
+    color:#3a4892;
+}
+#article-reply-area > .header #lastc{
+  color : #3a4892;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
+    display : none;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #000000;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #3a4892;
+}
+
+header #header-bar #header-menu-right #userDropdown img.profile-img {
+  border-radius: 100px;
+}
